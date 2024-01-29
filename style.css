@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+/* Basic styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: beige;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#description {
+    margin-bottom: 20px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+/* Gallery styles */
+.gallery {
+    margin-bottom: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.gallery .desc {
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f8f9fa; /* Light grey background */
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+}
+
+th, td {
+    border: 1px solid #dee2e6; /* Light grey border */
+    padding: 12px 15px; /* Spacing inside cells */
+    text-align: left; /* Align text to left */
+}
+
+th {
+    background-color: #007bff; /* Blue header background */
+    color: white; /* White text for headers */
+    font-weight: bold; /* Bold font for headers */
+}
+
+caption {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2em; /* Slightly larger font for caption */
+    text-align: left; /* Align caption to left */
+    background-color: #e9ecef; /* Light grey background for caption */
+    border-bottom: 1px solid #dee2e6; /* Light grey border for caption */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    table {
+        width: 95%;
+        margin: 10px auto;
+    }
+}
